@@ -1,0 +1,15 @@
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Device_Registration.csprojAssemblyReference.cache
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Device_Registration.csproj.GenerateResource.cache
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Device_Registration.csproj.CoreCompileInputs.cache
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\bin\Debug\Device_Registration.exe.config
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\bin\Debug\Device_Registration.exe
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\bin\Debug\Device_Registration.pdb
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Device_Registration.Inicio.resources
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Device_Registration.Gateway.resources
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Device_Registration.Electrical.resources
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Device_Registration.Water.resources
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Device_Registration.Registration_failed.resources
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Device_Registration.Registration_complete.resources
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Device_Registration.Properties.Resources.resources
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Device_Registration.exe
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Device_Registration.pdb

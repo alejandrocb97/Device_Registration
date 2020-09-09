@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FCFBA696-0E8D-40C5-A56C-F4ED7714768D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Device_Registration</RootNamespace>
+    <AssemblyName>Device_Registration</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Start.Designer.cs">
+      <DependentUpon>Form_Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Gateway.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Gateway.Designer.cs">
+      <DependentUpon>Form_Gateway.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Electrical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Electrical.Designer.cs">
+      <DependentUpon>Form_Electrical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Water.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Water.Designer.cs">
+      <DependentUpon>Form_Water.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Fail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Fail.Designer.cs">
+      <DependentUpon>Form_Fail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Success.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Success.Designer.cs">
+      <DependentUpon>Form_Success.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_Start.resx">
+      <DependentUpon>Form_Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Gateway.resx">
+      <DependentUpon>Form_Gateway.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Electrical.resx">
+      <DependentUpon>Form_Electrical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Water.resx">
+      <DependentUpon>Form_Water.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Fail.resx">
+      <DependentUpon>Form_Fail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Success.resx">
+      <DependentUpon>Form_Success.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

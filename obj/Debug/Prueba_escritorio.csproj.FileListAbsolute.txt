@@ -1,0 +1,15 @@
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Prueba_escritorio.csprojAssemblyReference.cache
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Prueba_escritorio.Properties.Resources.resources
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Prueba_escritorio.csproj.GenerateResource.cache
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Prueba_escritorio.csproj.CoreCompileInputs.cache
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\bin\Debug\Prueba_escritorio.exe.config
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\bin\Debug\Prueba_escritorio.exe
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\bin\Debug\Prueba_escritorio.pdb
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Prueba_escritorio.exe
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Prueba_escritorio.pdb
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Prueba_escritorio.Inicio.resources
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Prueba_escritorio.Water.resources
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Prueba_escritorio.Registration_failed.resources
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Prueba_escritorio.Registration_complete.resources
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Prueba_escritorio.Electrical.resources
+C:\Users\AlejandroGV\source\repos\Prueba_escritorio\obj\Debug\Prueba_escritorio.Gateway.resources
